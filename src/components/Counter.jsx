@@ -1,12 +1,16 @@
 import { useState } from "react";
 
-function Counter() {
+function Counter({ title }) {
   const [count, setCount] = useState(0);
 
   return (
-    <button onClick={() => setCount(count + 1)}>
-      Count: {count}
-    </button>
+    <section>
+      <h2>{title}</h2>
+
+      <button onClick={() => setCount(count + 1)}>
+        Count: {count}
+      </button>
+    </section>
   );
 }
 
