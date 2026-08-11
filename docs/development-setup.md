@@ -176,3 +176,5 @@ Development tools → Linux/WSL
 Project code       → ~/0/fullstack-lab
 Large WSL storage  → D:
 Windows VS Code    → selected integration only
+
+====================================================================
